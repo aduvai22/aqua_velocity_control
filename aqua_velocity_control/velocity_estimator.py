@@ -1,4 +1,4 @@
-import rclpy
+ros2 run import rclpy
 from rclpy.node import Node
 import cv2
 import numpy as np
@@ -11,8 +11,8 @@ class VelocityEstimator(Node):
     def __init__(self):
         super().__init__('velocity_estimator')
 
-        self.declare_parameter('fx', 500.0)
-        self.declare_parameter('fy', 500.0)
+        self.declare_parameter('fx', 450.591293)
+        self.declare_parameter('fy', 452.998538)
         self.declare_parameter('fps', 5.0)
 
         self.fx = self.get_parameter('fx').value
