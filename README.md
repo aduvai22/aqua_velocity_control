@@ -25,6 +25,6 @@ Once this velocity is estimated, the controller adjusts the robot's intended vel
  - Camera intrinsic (fx, fy)
  - Time difference between two frames (frame rate) 
 
-## TODO
+### TODO
 - Add an active velocity controller.
 - Investigate how current influences lateral drag. Mitigate it with sway control.
