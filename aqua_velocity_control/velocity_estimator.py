@@ -1,4 +1,4 @@
-ros2 run import rclpy
+import rclpy
 from rclpy.node import Node
 import cv2
 import numpy as np
