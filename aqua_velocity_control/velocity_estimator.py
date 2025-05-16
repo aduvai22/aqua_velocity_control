@@ -13,7 +13,7 @@ class VelocityEstimator(Node):
 
         self.declare_parameter('fx', 450.591293)
         self.declare_parameter('fy', 452.998538)
-        self.declare_parameter('fps', 5.0)
+        self.declare_parameter('fps', 2.0)
 
         self.fx = self.get_parameter('fx').value
         self.fy = self.get_parameter('fy').value
